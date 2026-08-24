@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "F1CCfEogS10=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\OneDrive - Champlain Regional College\\Desktop\\Every_College_Work\\Fall 2026\\.NET_Development\\Class_Assignments\\Class_Work_#1\\Code\\5.1_GitHub_Copilot_with_C#_and_LINQ\\5.1_GitHub_Copilot_with_C#_and_LINQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.30\\microsoft.netcore.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.30\\microsoft.windowsdesktop.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.30\\microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.30\\microsoft.netcore.app.host.win-x64.8.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}

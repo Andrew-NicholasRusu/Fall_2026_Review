@@ -1,0 +1,177 @@
+/* ------------------------------
+   General Page Styling
+------------------------------ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  min-height: 100vh;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: #ffffff;
+  color: #222222;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* ------------------------------
+   Portfolio Container
+------------------------------ */
+
+.portfolio-container {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 40px 20px;
+}
+
+/* ------------------------------
+   Profile Section
+------------------------------ */
+
+.profile {
+  margin-bottom: 35px;
+}
+
+.profile-image {
+  width: 180px;
+  height: 180px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  margin-bottom: 20px;
+}
+
+.profile h1 {
+  margin: 0;
+
+  font-size: 2.5rem;
+}
+
+.title {
+  margin-top: 8px;
+
+  font-size: 1.3rem;
+
+  opacity: 0.8;
+}
+
+/* ------------------------------
+   Skills
+------------------------------ */
+
+.skills-section h2 {
+  margin-bottom: 25px;
+}
+
+/*Modifed to be vertical*/
+.skills {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.skills li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Skill icons must be 50 × 50 px */
+.skills img {
+  width: 50px;
+  height: 50px;
+
+  object-fit: contain;
+}
+
+/* ------------------------------
+   Dark / Light Mode Control
+------------------------------ */
+
+.container-dark {
+  position: fixed;
+
+  top: 20px;
+  right: 20px;
+
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+}
+
+/*
+   Only hide the checkbox inside
+   the dark-mode container.
+*/
+.container-dark input {
+  display: none;
+}
+
+.toggle-label {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 52px;
+  height: 52px;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  background-color: #f2f2f2;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.toggle-label img {
+  width: 32px;
+  height: 32px;
+}
+
+/* ------------------------------
+   Utility Classes
+------------------------------ */
+
+.hidden {
+  display: none;
+}
+
+/* ------------------------------
+   Small Screens
+------------------------------ */
+
+@media (max-width: 600px) {
+  .profile h1 {
+    font-size: 2rem;
+  }
+
+  .skills {
+    gap: 20px;
+  }
+}
