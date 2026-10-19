@@ -1,0 +1,22 @@
+# Create virtual environment
+python -m venv .venv
+
+# Windows PowerShell activation
+.venv\Scripts\Activate.ps1
+
+# macOS/Linux activation
+source .venv/bin/activate
+
+# Install Flask
+pip install -r requirements.txt
+
+# Run the app
+python app_no_docker.py
+
+# Test GET in browser or terminal
+http://127.0.0.1:5000/students
+
+# Test POST with curl
+curl -X POST http://127.0.0.1:5000/students \
+  -H "Content-Type: application/json" \
+  -d "{\"name\":\"Omid\",\"course\":\"Docker\"}"

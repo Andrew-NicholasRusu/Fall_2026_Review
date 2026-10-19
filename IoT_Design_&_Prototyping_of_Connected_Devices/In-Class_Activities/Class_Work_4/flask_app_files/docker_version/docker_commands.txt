@@ -1,0 +1,15 @@
+# Build the Docker image
+# Use the command below inside this folder:
+docker build -t flask-json-demo .
+
+# Run the container
+# Maps computer port 5000 to container port 5000:
+docker run -p 5000:5000 flask-json-demo
+
+# Test GET in browser or terminal
+http://localhost:5000/students
+
+# Test POST with curl
+curl -X POST http://localhost:5000/students \
+  -H "Content-Type: application/json" \
+  -d "{\"name\":\"Omid\",\"course\":\"Docker\"}"
