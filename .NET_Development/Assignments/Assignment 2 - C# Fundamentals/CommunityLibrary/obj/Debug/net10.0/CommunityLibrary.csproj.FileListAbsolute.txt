@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\CommunityLibrary\obj\Debug\net10.0\CommunityLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\CommunityLibrary\obj\Debug\net10.0\CommunityLibrary.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\CommunityLibrary\obj\Debug\net10.0\CommunityLibrary.AssemblyInfo.cs
+C:\Users\User\source\repos\CommunityLibrary\obj\Debug\net10.0\CommunityLibrary.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CommunityLibrary\bin\Debug\net10.0\CommunityLibrary.exe
+C:\Users\User\source\repos\CommunityLibrary\bin\Debug\net10.0\CommunityLibrary.deps.json
+C:\Users\User\source\repos\CommunityLibrary\bin\Debug\net10.0\CommunityLibrary.runtimeconfig.json
+C:\Users\User\source\repos\CommunityLibrary\bin\Debug\net10.0\CommunityLibrary.dll
+C:\Users\User\source\repos\CommunityLibrary\bin\Debug\net10.0\CommunityLibrary.pdb
+C:\Users\User\source\repos\CommunityLibrary\obj\Debug\net10.0\CommunityLibrary.dll
+C:\Users\User\source\repos\CommunityLibrary\obj\Debug\net10.0\refint\CommunityLibrary.dll
+C:\Users\User\source\repos\CommunityLibrary\obj\Debug\net10.0\CommunityLibrary.pdb
+C:\Users\User\source\repos\CommunityLibrary\obj\Debug\net10.0\CommunityLibrary.genruntimeconfig.cache
+C:\Users\User\source\repos\CommunityLibrary\obj\Debug\net10.0\ref\CommunityLibrary.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CommunityLibrary/1.0.0": {
+        "runtime": {
+          "CommunityLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommunityLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
