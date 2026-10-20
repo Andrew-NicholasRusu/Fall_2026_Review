@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Developer Portfolio</title>
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Dark / Light Mode Toggle -->
+    <div class="container-dark">
+      <input type="checkbox" id="darkModeToggle" />
+
+      <label for="darkModeToggle" class="toggle-label">
+        <!-- Sun icon: visible initially -->
+        <img
+          id="sunIcon"
+          src="https://img.icons8.com/color/48/sun--v1.png"
+          alt="Light Mode"
+        />
+
+        <!-- Moon icon: hidden initially -->
+        <img
+          id="moonIcon"
+          class="hidden"
+          src="https://img.icons8.com/color/48/moon-symbol.png"
+          alt="Dark Mode"
+        />
+      </label>
+    </div>
+
+    <!-- Main Portfolio Container -->
+    <main class="portfolio-container">
+      <!-- Profile Section -->
+      <section class="profile">
+        <!-- Replace this URL with your own image -->
+        <img class="profile-image" src="JDoe.jpg" alt="Profile image" />
+
+        <h1>Reza Mirsalari</h1>
+
+        <p class="title">Developer</p>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills-section">
+        <h2>Skills</h2>
+
+        <ul class="skills">
+          <li>
+            <img
+              src="https://img.icons8.com/color/96/html-5--v1.png"
+              alt="HTML"
+            />
+            <span>HTML</span>
+          </li>
+
+          <li>
+            <img src="https://img.icons8.com/color/96/css3.png" alt="CSS" />
+            <span>CSS</span>
+          </li>
+
+          <li>
+            <img
+              src="https://img.icons8.com/color/96/javascript--v1.png"
+              alt="JavaScript"
+            />
+            <span>JavaScript</span>
+          </li>
+
+          <li>
+            <img
+              src="https://img.icons8.com/color/96/bootstrap.png"
+              alt="Bootstrap"
+            />
+            <span>Bootstrap</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script>
+      // Get references to the dark-mode controls
+      const darkModeToggle = document.getElementById("darkModeToggle");
+
+      const sunIcon = document.getElementById("sunIcon");
+
+      const moonIcon = document.getElementById("moonIcon");
+
+      const body = document.body;
+
+      // Listen for changes to the checkbox
+      darkModeToggle.addEventListener("change", function () {
+        if (darkModeToggle.checked) {
+          // Enable dark mode
+          body.style.backgroundColor = "#1f1f1f";
+          body.style.color = "#ffffff";
+
+          // Hide sun and show moon
+          sunIcon.classList.add("hidden");
+          moonIcon.classList.remove("hidden");
+        } else {
+          // Enable light mode
+          body.style.backgroundColor = "#ffffff";
+          body.style.color = "#222222";
+
+          // Show sun and hide moon
+          sunIcon.classList.remove("hidden");
+          moonIcon.classList.add("hidden");
+        }
+      });
+    </script>
+  </body>
+</html>
