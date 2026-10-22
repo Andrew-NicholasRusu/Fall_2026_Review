@@ -1,0 +1,62 @@
+SERVICE REQUEST REPORT
+Request: SR-101
+Category: Plumbing
+Priority: 5
+Estimated Cost: $450.00
+Status: Urgent
+Cost Level: High
+-----------------------------
+Request: SR-102
+Category: General
+Priority: 2
+Estimated Cost: $120.00
+Status: Normal
+Cost Level: Low
+-----------------------------
+Request: SR-103
+Category: Electrical
+Priority: 4
+Estimated Cost: $375.00
+Status: Urgent
+Cost Level: High
+Periodic inspection recommended.
+-----------------------------
+Request: SR-104
+Category: Heating
+Priority: 3
+Estimated Cost: $280.00
+Status: Normal
+Cost Level: Medium
+-----------------------------
+Request: SR-105
+Category: Plumbing
+Priority: 1
+Estimated Cost: $95.00
+Status: Normal
+Cost Level: Low
+-----------------------------
+Request: SR-106
+Category: Electrical
+Priority: 5
+Estimated Cost: $530.00
+Status: Urgent
+Cost Level: High
+Periodic inspection recommended.
+-----------------------------
+Request: SR-107
+Category: General
+Priority: 4
+Estimated Cost: $225.00
+Status: Urgent
+Cost Level: Medium
+-----------------------------
+Request: SR-108
+Category: Heating
+Priority: 2
+Estimated Cost: $175.00
+Status: Normal
+Cost Level: Medium
+-----------------------------
+Total Requests: 8
+Total Estimated Cost: $2,250.00
+Average Estimated Cost: $281.25

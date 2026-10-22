@@ -1,0 +1,8 @@
+SR-101,Plumbing,5,450.00
+SR-102,General,2,120.00
+SR-103,Electrical,4,375.00
+SR-104,Heating,3,280.00
+SR-105,Plumbing,1,95.00
+SR-106,Electrical,5,530.00
+SR-107,General,4,225.00
+SR-108,Heating,2,175.00
