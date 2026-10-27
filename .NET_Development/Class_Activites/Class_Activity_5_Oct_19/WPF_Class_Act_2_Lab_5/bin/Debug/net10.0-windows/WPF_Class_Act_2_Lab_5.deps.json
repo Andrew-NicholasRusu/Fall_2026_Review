@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "WPF_Class_Act_2_Lab_5/1.0.0": {
+        "runtime": {
+          "WPF_Class_Act_2_Lab_5.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPF_Class_Act_2_Lab_5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
