@@ -1,0 +1,40 @@
+C:\Users\User\source\repos\SportsCentreManager\bin\Debug\net10.0-windows\SportsCentreManager.exe
+C:\Users\User\source\repos\SportsCentreManager\bin\Debug\net10.0-windows\SportsCentreManager.deps.json
+C:\Users\User\source\repos\SportsCentreManager\bin\Debug\net10.0-windows\SportsCentreManager.runtimeconfig.json
+C:\Users\User\source\repos\SportsCentreManager\bin\Debug\net10.0-windows\SportsCentreManager.dll
+C:\Users\User\source\repos\SportsCentreManager\bin\Debug\net10.0-windows\SportsCentreManager.pdb
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager_MarkupCompile.cache
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.g.resources
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.AssemblyInfo.cs
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.dll
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\refint\SportsCentreManager.dll
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.pdb
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.genruntimeconfig.cache
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\ref\SportsCentreManager.dll
+C:\Users\User\source\repos\SportsCentreManager\obj\Debug\net10.0-windows\SportsCe.C9B0D690.Up2Date
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\bin\Debug\net10.0-windows\SportsCentreManager.exe
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\bin\Debug\net10.0-windows\SportsCentreManager.deps.json
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\bin\Debug\net10.0-windows\SportsCentreManager.runtimeconfig.json
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\bin\Debug\net10.0-windows\SportsCentreManager.dll
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\bin\Debug\net10.0-windows\SportsCentreManager.pdb
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager_MarkupCompile.cache
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.g.resources
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.AssemblyInfo.cs
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.dll
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\refint\SportsCentreManager.dll
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.pdb
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\SportsCentreManager.genruntimeconfig.cache
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\ref\SportsCentreManager.dll
+C:\Users\User\OneDrive - Champlain Regional College\Desktop\Every_College_Work\Fall 2026\.NET_Development\Assignments\Assignment 8 - WPF1\SportsCentreManager\obj\Debug\net10.0-windows\SportsCe.C9B0D690.Up2Date
