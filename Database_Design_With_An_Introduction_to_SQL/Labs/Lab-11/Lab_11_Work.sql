@@ -1,0 +1,53 @@
+-- 1. Create a procedure named prc_invoice_amount to update the  INV_SUBTOTAL, INV_TAX AND INV_TOTAL. 
+-- The procedure takes the invoice number as a parameter. The INV_SUBTOTAL  is the sum of LINE_TOTAL  amounts for the invoice, 
+-- the INV_TAX is the product of INV_SUBTOTAL and the tax rate (8 percent), and the INV_TOTAL is the sum of the INV_SUBTOTAL and INV_TAX.
+
+DROP PROCEDURE IF EXISTS PRC_INVOICE_AMOUNT;
+DELIMITER $$ 
+CREATE PROCEDURE PRC_INVOICE_AMOUNT(IN X INTEGER)
+BEGIN
+	UPDATE INVOICE, LINE
+    SET
+		INV_SUBTOTAL = (SELECT SUM(LINE_TOTAL) FROM LINE
+						WHERE LINE.INV_NUMBER = x),	
+		INV_TAX = INV_SUBTOTAL *.08,
+        INV_TOTAL = INV_SUBTOTAL + INV_TAX
+	WHERE 
+		INVOICE.INV_NUMBER = x;
+END;
+$$
+DELIMITER ;
+START TRANSACTION;
+CALL PRC_INVOICE_AMOUNT(1001);
+
+SELECT * FROM INVOICE;
+ROLLBACK;
+
+-- 2. Create a procedure named prc_cus_balance_update that will take the invoice number as a parameter and update the customer balance 
+-- (Hint: You can use DECLARE to define a TOTINV number variable that holds the computed invoice total.)
+
+DROP PROCEDURE IF EXISTS PRC_CUS_BALANCE_UPDATE;
+DELIMITER $$
+CREATE PROCEDURE PRC_CUS_BALANCE_UPDATE(IN W_INV_NUMBER INTEGER)
+BEGIN 
+	DECLARE TOTINV DECIMAL(10, 2);
+    DECLARE W_CUS_CODE INTEGER;
+    
+    SELECT INV_TOTAL, CUS_CODE
+		INTO TOTINV, W_CUS_CODE
+        FROM INVOICE 
+	WHERE INV_NUMBER = W_INV_NUMBER;
+
+	UPDATE CUSTOMER
+		SET CUS_BALANCE = CUS_BALANCE + TOTINV
+	WHERE CUS_CODE = W_CUS_CODE;
+
+END;
+$$
+DELIMITER ;
+START TRANSACTION;
+CALL PRC_CUS_BALANCE_UPDATE(8005);
+
+SELECT CUS_CODE, CUS_BALANCE
+FROM CUSTOMER
+WHERE CUS_CODE = 10011;
